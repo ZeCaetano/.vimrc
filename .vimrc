@@ -11,8 +11,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "YouCompleteMe
 Plugin 'ycm-core/YouCompleteMe'
-
-
+"NERDtree
+Plugin 'preservim/nerdtree'
+"AutoPairs
+Plugin 'jiangmiao/auto-pairs'
 "" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
