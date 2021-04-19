@@ -3,8 +3,8 @@ My personal .vimrc.
 Needs vundle to manage plugins.
 
 Features:\
-  -Line numbers\
-  -Gruvbox theme\
+       -Line numbers\
+       -Gruvbox theme\
   -Mouse support\
   -TAB width of 4\
   -Auto indent(new line starts in same column as previous line)\
