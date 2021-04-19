@@ -10,4 +10,4 @@ Features:\
   -Auto indent(new line starts in same column as previous line)\
   -WSL cursor fix\
   -24-bit colour\
-  -New split windows open to the right and below\
+  -New split windows open to the right and below
