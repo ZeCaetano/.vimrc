@@ -9,12 +9,14 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-"YouCompleteMe
+"YouCompleteMe autocomplete
 Plugin 'ycm-core/YouCompleteMe'
-"NERDtree
+"NERDtree file explorer
 Plugin 'preservim/nerdtree'
-"AutoPairs
+"AutoPairs brackets
 Plugin 'jiangmiao/auto-pairs'
+"Minimap
+Plugin 'severin-lemaignan/vim-minimap'
 "" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -77,4 +79,7 @@ let g:EclimFileTypeValidate = 0
 "ycm preview window
 let g:ycm_add_preview_to_completeopt = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
-
+"Split below and to the right
+set splitbelow
+set splitright
+set termguicolors
