@@ -3,7 +3,7 @@ My personal .vimrc.
 Needs vundle to manage plugins.
 
 Features:
-  -Line numbers
+  -Line numbers\
   -Gruvbox theme
   -Mouse support
   -TAB width of 4
